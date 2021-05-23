@@ -86,4 +86,4 @@ select * from people where license_plate = '0NTHK55';
 
 select * from people where phone_number = '(725) 555-3243';
 
-Finally the theif is Ernest and his accomplice Berthold who escaped to london.
+Finally the thief is Ernest and his accomplice Berthold who escaped to london.
