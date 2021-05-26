@@ -38,7 +38,7 @@ You can register yourself for the course here - (https://www.edx.org/course/intr
 
 * P.V. Abhiram
 [@p.v.abhiram - Instagram](https://www.instagram.com/p.v.abhiram/)
-Mail - (abhiramp428@gmail.com)
+* Mail - (abhiramp428@gmail.com)
 
 
 ## Acknowledgments
