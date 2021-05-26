@@ -53,7 +53,7 @@ Are Amazing
 * [Brian Yu Instagram](https://www.instagram.com/brianyu28/)
 * [Brian Yu Github](https://github.com/brianyu28)
 * Finally i would like to say thanks to all the CS50 community to help me in debugging 
-* [CS50 Community Discord] (https://discord.gg/cs50)
+* [CS50 Community Discord](https://discord.gg/cs50)
 
 Hope you guys get the code you needed
 Feel free to contact me for information on these codes
