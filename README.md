@@ -37,8 +37,8 @@ You can register yourself for the course here - (https://www.edx.org/course/intr
 ## Authors
 
 * P.V. Abhiram
-[@p.v.abhiram](https://www.instagram.com/p.v.abhiram/)
-[Mail] (abhiramp428@gmail.com)
+[@p.v.abhiram - Instagram](https://www.instagram.com/p.v.abhiram/)
+Mail - (abhiramp428@gmail.com)
 
 
 ## Acknowledgments
@@ -48,12 +48,12 @@ I would say the teachers at CS50
 * Professor David J Malan 
 
 Are Amazing
-* [David J. Malan](https://www.instagram.com/davidjmalan/)
+* [David J. Malan Instagram](https://www.instagram.com/davidjmalan/)
 * [David J. Malan Github](https://github.com/dmalan)
-* [Brian Yu](https://www.instagram.com/brianyu28/)
-* [Brian Yu](https://github.com/brianyu28)
+* [Brian Yu Instagram](https://www.instagram.com/brianyu28/)
+* [Brian Yu Github](https://github.com/brianyu28)
 * Finally i would like to say thanks to all the CS50 community to help me in debugging 
-* [CS50 Community] (https://discord.gg/cs50)
+* [CS50 Community Discord] (https://discord.gg/cs50)
 
 Hope you guys get the code you needed
 Feel free to contact me for information on these codes
