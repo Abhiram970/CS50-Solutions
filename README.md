@@ -10,15 +10,15 @@ series of introductory CS50 courses and Professional Certificate programs from
 Harvard that are open to learners of all backgrounds looking to explore 
 Computer science, mobile app and game development, business technologies, and the art of programming.
 
-###This course includes :
+## This course includes :
 
-* ### Python
-* ### C
-* ### SQL
-* ### Html , CSS , Javascript
-* ### Flask
-* ### Data Structures , Algorithms
-* ### Inheritance
+* #### Python
+* #### C
+* #### SQL
+* #### Html , CSS , Javascript
+* #### Flask
+* #### Data Structures , Algorithms
+* #### Inheritance
 
 ## Getting Started
 
