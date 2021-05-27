@@ -3,7 +3,7 @@
 My solutions for CS50-2021 :)
 
 ## Description
-<img src="download.jpeg" height="300">
+<img src="Harvard-logo-design.jpg" height="300">
 Introduction to Computer Science from Harvard, better known as CS50,
 is the largest course on the Harvard campus and more than 2,000,000 learners 
 worldwide have registered for the course on edX. We are excited to offer a 
