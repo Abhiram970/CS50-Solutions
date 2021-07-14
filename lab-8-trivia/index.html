@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+            <h3>Which of the following are Countries in the world ?</h3>
+            <p id = "demo"></p>
+            <!-- TODO: Add multiple choice question here -->
+            <button onclick="myFunction()" class = "example">India</button>
+            <button onclick="myFunction()" class="example2">Russia</button>
+            <button onclick="myFunction3()" class="example3">Asia</button>
+            <button onclick="myFunction()" class="example4">France</button>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>What is the capital of Russia ?</h3>
+            
+            <!-- TODO: Add free response question here -->
+
+        </div>
+
+    </div>
+    <script>
+        function myFunction() {
+            document.querySelector(".example").style.backgroundColor = "lightgreen";
+            document.getElementById("demo").innerHTML = "Correct";
+        }
+        function myFunction3() {
+            document.querySelector(".example3").style.backgroundColor = "red";
+            document.getElementById("demo").innerHTML = "Wrong";
+        }
+    </script>
+</body>
+
+</html>

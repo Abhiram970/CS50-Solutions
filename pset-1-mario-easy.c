@@ -11,7 +11,8 @@ int main()
         scanf("%d",&height);
     } 
     while (height < 1 || height > 8);
-    for (i=0;i<height-1;i++){
+    for (i=0;i<height-1;i++)
+    {
         printf(" ");
     }
     printf("#\n");
