@@ -1,6 +1,4 @@
-console.log("Hello World");
-function add(a, b) {
-    return a + b
+function greet() {
+    let name = document.querySelector('#name').valve;
+    alert('Hello , ' + name);
 }
-console.log(add(4, 6))
-console.log(4-5)

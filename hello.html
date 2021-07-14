@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <script>
+            function greet() {
+                let name = document.querySelector('#names').valve;
+                alert('Hello , ' + name);
+            }
+            function listen()
+            {
+                document.querySelector('form').addEventListener('submit', greet);
+            }
+
+            document.addEventListener('DOMContentLoaded',listen);
+        </script>
+        <title>
+            hello , title
+        </title>
+    </head>
+    <body>
+        <form>
+            <input autofocus id = "name" placeholder = "What's your name?" type = "text">
+            <input type = "submit" value = "Greet Me">
+        </form>
+
+    </body>
+</html>

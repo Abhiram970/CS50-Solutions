@@ -23,17 +23,21 @@
             <h3>Which of the following are Countries in the world ?</h3>
             <p id = "demo"></p>
             <!-- TODO: Add multiple choice question here -->
-            <button onclick="myFunction()" class = "example">India</button>
-            <button onclick="myFunction()" class="example2">Russia</button>
+            <button onclick="myFunction() " class = "example">India</button>
+            <button onclick="myFunction3()" class="example2">Europe</button>
             <button onclick="myFunction3()" class="example3">Asia</button>
-            <button onclick="myFunction()" class="example4">France</button>
+            <button onclick="myFunction3()" class="example4">North America</button>
         </div>
 
         <div class="section">
             <h2>Part 2: Free Response</h2>
             <hr>
             <h3>What is the capital of Russia ?</h3>
-            
+            <p id="demo2"></p>
+            <form>
+                <input class = "hello" id="capital" autofocus autocomplete="off" placeholder="Answer here" type="text">
+                <input type="submit">
+            </form>
             <!-- TODO: Add free response question here -->
 
         </div>
@@ -41,13 +45,34 @@
     </div>
     <script>
         function myFunction() {
-            document.querySelector(".example").style.backgroundColor = "lightgreen";
-            document.getElementById("demo").innerHTML = "Correct";
+            document.getElementById("demo").innerHTML = "Correct!";
+            document.getElementById("demo").style.fontFamily = "Verdana,bold,arial";
+            document.getElementById("demo").style.fontWeight = "900";
         }
         function myFunction3() {
-            document.querySelector(".example3").style.backgroundColor = "red";
-            document.getElementById("demo").innerHTML = "Wrong";
+            document.getElementById("demo").innerHTML = "Incorrect!";
+            document.getElementById("demo").style.fontFamily = "Verdana,bold,arial";
+            document.getElementById("demo").style.fontWeight = "900";
         }
+                document.querySelector('form').onsubmit = function () {
+                    let capital = document.querySelector('#capital').value
+                    let string = capital.toLowerCase()
+                    if (string == 'moscow')
+                    {
+                        document.getElementById("demo2").innerHTML = "Correct!";
+                        document.getElementById("demo2").style.fontFamily = "Verdana,bold,arial";
+                        document.getElementById("demo2").style.fontWeight = "900";
+                    }
+                    if (string != 'moscow') {
+                        document.getElementById("demo2").innerHTML = "Incorrect!";
+                        document.getElementById("demo2").style.fontFamily = "Verdana,bold,arial";
+                        document.getElementById("demo2").style.fontWeight = "900";
+                    }
+                    return false;
+                };
+
+
+
     </script>
 </body>
 
