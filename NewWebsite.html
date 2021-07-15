@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://ide-194156ac0e324e10848f2030416385bc-8080.cs50.ws/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./NewWebsite_files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="./NewWebsite_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><style></style>
+    <script src="./NewWebsite_files/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./NewWebsite_files/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="./NewWebsite_files/styles2.css" rel="stylesheet">
+
+
+  <!-- line under really important to make things scaled for mobiles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NewWebsite</title>
+
+      <script>
+
+  var bazinga = new Audio('Bazinga Sound Clip.mp3');
+  function blink()
+  {
+    let logo = document.querySelector('#logo');
+    if (logo.style.visibility == 'hidden')
+    {
+      logo.style.visibility ='visible';
+    }
+    else
+    {
+      let click = document.querySelector('#logo');
+      click.addEventListener('click', function()
+      {
+
+        bazinga.play();
+        });
+      logo.style.visibility = 'hidden';
+    }
+  }
+
+  window.setInterval(blink, 1000);
+
+
+
+</script>
+</head>
+
+
+
+<body data-new-gr-c-s-check-loaded="14.1022.0" data-gr-ext-installed="">
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-red">
+  <a class="navbar-brand" href="https://ide-194156ac0e324e10848f2030416385bc-8080.cs50.ws/index.html">CS50 Homepage</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item">
+        <a class="nav-link" href="https://ide-194156ac0e324e10848f2030416385bc-8080.cs50.ws/newAbout.html">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://ide-194156ac0e324e10848f2030416385bc-8080.cs50.ws/newResume.html">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://ide-194156ac0e324e10848f2030416385bc-8080.cs50.ws/newResources.html">Resources</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://ide-194156ac0e324e10848f2030416385bc-8080.cs50.ws/index.html#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contacts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://www.linkedin.com/in/rapha%C3%ABl-b">LinkedIn</a>
+          <a class="dropdown-item" href="https://www.reddit.com/user/Nanko_CS">Reddit</a>
+          <a class="dropdown-item" href="https://github.com/NankoCS">GitHub</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Welcome to my homepage</h1>
+    <p class="lead">I am Raphaël, an econ graduate currently studying Computer Science.</p>
+  </div>
+</div>
+
+<img src="./NewWebsite_files/logo2.png" id="logo" style="visibility: visible;">
+
+<!-- columns on homepage -->
+<div id="containerbody" class="container">
+  <div class="row">
+    <div class="col-sm">
+      <center><h3>This website</h3></center>
+      <center><p>The website you are browsing is the result of the week 8's assignment in which we were asked
+      to make a website, style it and make it dynamic and responsive using HTML, CSS,
+      Bootstrap and JavaScript.</p></center>
+      <br>
+    </div>
+    <div class="col-sm">
+      <center><h3>CS50</h3></center>
+      <center><p>It is the Harvard introductory class to computer science, taught on campus to around
+      700+ students each year but also free of access on internet at <a href="https://cs50.harvard.edu/x/2021/weeks/0/">this</a> link.
+      Is it a "Demanding, but definitely doable. Social, but educational" class, said David J. Malan, Instructor of this class.</p></center>
+      <br>
+    </div>
+    <div class="col-sm">
+      <center><h3>Content of the class</h3></center>
+      <center><p>You can expect learning about multiple programming languages such as C, Python,
+      JavaScript and SQL, but also many technologies like HTML and CSS with JS. CS50 will
+      also teach you about computer science fundamentals that are needed to become not only
+      a software engineer, but to become a great one.  </p></center>
+      <br>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <center>
+        <h2>The latest Tech news</h2>
+        <hr>
+        <h4>Elon Musk warns drivers not to trust new "full self-driving" update.</h4>
+        <h6>"Please be paranoid."</h6></center>
+        <br>
+        <p>Tesla has finally started to roll out the latest version of its “Full Self-Driving”
+        beta, which is its long-awaited assisted driving update that gives Teslas the ability
+        to automatically change lanes and obey traffic lights and stop signs.</p>
+        <p>That’s an exciting development on Tesla’s journey toward vehicles that are self-driving
+        in technological capacity rather than name. But as Insider notes, it’s not all celebration
+        back at Tesla headquarters. Instead, CEO Elon Musk made sure to warn drivers that the
+        system still isn’t perfect — and that everyone needs to stay vigilant to make sure the
+        experimental software doesn’t put them in harm’s way.</p>
+        <p>“Running preproduction software is both work and fun,” Musk tweeted last week.
+        “Beta list was in stasis, as we had many known issues to fix. Beta 9 addresses most
+        known issues, but there will be unknown issues, so please be paranoid. Safety is
+        always top priority at Tesla.”</p>
+        <hr>
+        <center><p>This extract has been copied from the <a href="https://futurism.com/">Futurism</a>
+        website. You can find the full article
+        <a href="https://futurism.com/the-byte/elon-musk-warns-drivers-full-self-driving">here</a>.</p>
+      </center>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div class="col-sm">
+      <center>
+        <h2>The latest Space news</h2>
+        <hr>
+        <h4>Russia proposes nuclear power plant on Mars.</h4>
+        <h6>Nations are racing ahead to be the first to establish a base on Mars.</h6></center>
+        <br>
+        <p>The concept of using nuclear power to build out our human presence in other parts of
+        the solar system is as alive as it’s ever been.</p>
+        <p>Case in point, a subsidiary of Russia’s Roscosmos space agency is now proposing a nuclear
+        power station on Mars, intended to power a future Russian base on the Red Planet, state-run
+        news agency Sputnik reports.</p>
+        <p>The Arsenal Design Bureau, the subsidiary, is recommending using the same technologies
+        destined for Zeus, a proposed interplanetary space tug, to power a nuclear reactor on the Martian
+        surface as well.</p>
+        <p>The massive space tug is designed to make use of a nuclear-powered electric propulsion system
+        to deliver payloads throughout the solar system. Earlier this year, Roscosmos chief Dmitry Rogozin
+        suggested that Zeus could also visit other planets, including Jupiter, to search for alien life.
+        Russia is hoping to begin flight-testing it starting around 2030.</p>
+        <p>The Arsenal Design Bureau is now proposing using Zeus to send a separate nuclear power station
+        to the Red Planet and have a parachute landing system lower it to the surface below.</p>
+        <hr>
+        <center><p>This extract has been copied from the <a href="https://futurism.com/">Futurism</a>
+        website. You can find the full article
+        <a href="https://futurism.com/russia-nuclear-powered-spacecraft-jupiter">here</a>.</p>
+      </center>
+    </div>
+
+
+
+
+</div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
