@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int check(char str1[], char str2[])
+{
+    int l1 = strlen(str1);
+    int l2 = strlen(str2);
+    int count = 0;
+    for (int i = 0; i < l2; i++)
+    {
+        if (str1[count] == str2[i])
+        {
+            count++;
+        }
+    }
+    if (count == l1)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+
+int main()
+{
+    char ao[100];
+    printf("Enter string 1 : ");
+    fgets(ao, 100, stdin);
+    printf("Enter string 2 : ");
+    char st[100];
+    fgets(st, 100, stdin);
+    if (check(ao, st))
+    {
+        printf("Yes");
+    }
+    else
+    {
+        printf("No");
+    }
+    return 0;
+}

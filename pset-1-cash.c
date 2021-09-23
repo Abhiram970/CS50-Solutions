@@ -14,23 +14,23 @@ int main()
     {
         cash = get_float("change owed = ");
     } while (cash < 0);
-    int cents = round(cash * 100);
-    int quarter = 25;
-    int dime = 10;
-    int nickel = 5;
-    int penny = 1;
-    int change = 0;
+
+    int one = 1;
+    int two = 2;
+    int five = 5;
+    int ten = 10;
     int count = 0;
-    int coins[4] = {quarter, dime, nickel, penny};
-    while (cents)
+    int coins[4] = {ten, five, two, one};
+    while (cash)
     {
-        if (coins[i] > cents)
+        if (coins[i] > cash)
         {
             i++;
         }
         else
         {
-            cents = cents - coins[i];
+            cash = cash - coins[i];
+            printf("%d\n", coins[i]);
             count++;
         }
     }
